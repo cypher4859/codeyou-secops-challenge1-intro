@@ -58,25 +58,71 @@ Students will apply what they've learned by mapping critical assets and threats 
 ### **Challenge Steps:**
 
 1. **Scenario**
-   - Provide the students with a new fictional organization description:  
-     _"TechCorp is a software development company that builds custom software solutions for clients. They store proprietary software code, customer contracts, and sensitive internal documents. They also have a cloud-based platform for collaboration and file sharing."_
+   - _You are part of the cybersecurity team at NightCorp, a high-tech company specializing in cybersecurity solutions for enterprises. NightCorp's infrastructure spans cloud, on-premises, and hybrid environments, supporting a variety of critical services for both internal operations and client-facing applications. The company faces a rapidly growing digital threat landscape, and your task is to identify the critical assets within their infrastructure and assess potential threats._
 
-2. **Task**
+2. **Tasks**
    - Students are tasked with identifying the critical assets for TechCorp and mapping them to potential threats. They must list at least five assets and match them with at least three potential threats for each asset.
+        - **Map Assets**: Create a map of NightCorp's most critical assets for the five assets you've chosen. You can use any diagramming tool (e.g., Lucidchart, Microsoft Visio, or even hand-drawn diagrams) to visualize how these assets are interconnected. You can also use a spreadsheet or table if you prefer. Highlight the most important assets that NightCorp cannot afford to lose or compromise and what the impact would be in the event of loss or compromise.
+        - **Identify Potential Threats**: For each critical asset, list the potential threats it faces. Consider both internal and external threats, such as:
+            - Network attacks (e.g., DDoS, man-in-the-middle)
+            - Data breaches (e.g., through unsecured APIs or employee devices)
+            - Physical security threats (e.g., unauthorized access to data centers)
+            - Malware or ransomware infections
+            - Supply chain attacks via third-party integrations
+
 
 3. **Guidelines**
-   - The students should think about internal and external threats. Consider factors like:
-     - Sensitive information (e.g., proprietary code, client contracts)
-     - Physical and digital infrastructure (e.g., servers, cloud platforms)
-     - Employees and access controls (e.g., laptops, VPNs, cloud storage)
-   
+   - The students should think about internal and external threats.
+    
 4. **Deliverable**
    - A list of critical assets with corresponding threats, either in a table format or as a diagram.
 
 5. **Debriefing**
    - After the challenge, go over the students’ answers and discuss common threats and best practices for mitigating these threats. Highlight any unique threats students may have identified and discuss them in the context of the organization's industry.
 
----
+
+## Phase 3: Homework - Threat Assessment Matrix and Recommendations
+### **Objective:**
+Students will be assigned a homework assignment that is a direct extension of this challenge. The student will need to continue on from their work in this challenge and perform the following tasks:
+
+1. **Create a Threat Assessment Matrix:**
+    - Develop a simple risk matrix that maps the likelihood of each identified threat occurring against the potential impact to NightCorp. Use the following categories:
+        - Likelihood: Unlikely, Possible, Likely, Very Likely
+        - Impact: Low, Moderate, High, Critical
+    - For each critical asset identified, include a specific threat, the likelihood of that threat occurring, and the potential impact it would have on NightCorp’s operations.
+
+2. **Provide Recommendations:**
+    Based on your analysis, provide recommendations for mitigating the most significant threats. identified in your matrix. These may include, but are not limited to:
+    - Enhancing access controls (e.g., implementing multi-factor authentication, strong password policies)
+    - Encryption of sensitive data (both at rest and in transit)
+    - Adding network segmentation for critical systems or creating isolated environments
+    - Regular patching and security audits
+    - Employee training on cybersecurity best practices (e.g., phishing prevention, secure device usage)
+
+3. **Deliverables**:
+    - **Threat Assessment Matrix Document:**   
+    Submit a document containing your threat assessment matrix. The matrix should include:
+        - A table or diagram mapping identified threats to their likelihood and impact.
+        - Clear explanations of why each threat has the likelihood and impact rating it has been assigned.
+
+    - **Recommendations Report:**  
+    Submit a report detailing your mitigation recommendations for the most critical threats. The report should cover:
+        - Specific recommendations for each identified threat.
+        - Justifications for why these recommendations would be effective in mitigating the risks.
+        - Potential benefits and drawbacks of each recommendation.
+
+    - **Formatting Requirements:**
+        - The report and matrix should be clearly organized, with sections for each task.
+        - Include any relevant diagrams, tables, or charts to aid in presenting your analysis.
+        - The final submission should be in either a Google Doc (or similar, e.g. Word Doc) or PDF format.
+
+    - **Assessment Criteria:**
+        - **Accuracy**: The threats and their corresponding likelihood and impact are correctly assessed.
+        - **Clarity**: Recommendations are clearly explained and directly address the identified threats.
+        - **Comprehensiveness**: All critical assets and significant threats are addressed, with thorough reasoning behind each recommendation.
+        - **Presentation**: The matrix and report are well-organized, easy to read, and free from grammatical errors.
 
 ## Wrap-Up
 - End the session with a brief Q&A or a discussion of the importance of asset identification in the context of risk management and cybersecurity.
+
+---
